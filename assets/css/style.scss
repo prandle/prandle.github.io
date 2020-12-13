@@ -13,5 +13,8 @@
   align-items:center;  
 } 
 .page-header-image {
-  background-image:;
+  height:100%;
+  width:100%;
+  background-image:url('/assets/images/prbg.jpg');
+  background-size:cover;
 }

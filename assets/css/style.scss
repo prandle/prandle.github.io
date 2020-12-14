@@ -10,11 +10,15 @@
   padding:1px 0px;
   display:grid;
   grid-template-columns: 50% 50%;
-  align-items:center;  
-} 
+  align-items:center;
+}
 .page-header-image {
   height:100%;
   width:100%;
   background-image:url('/assets/images/prbg.jpg');
   background-size:cover;
+}
+.page-header-text {
+  padding:3em;
+  text-align:left;
 }

@@ -15,8 +15,9 @@
 .page-header-image {
   height:100%;
   width:100%;
-  background-image:url('/assets/images/prbg.jpg');
+  background-image:url('{{site.hero}}');
   background-size:cover;
+  background-position: center left; 
 }
 .page-header-text {
   padding:3em;

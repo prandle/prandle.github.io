@@ -33,7 +33,7 @@
 }
 .page-header-social {
   display:grid;
-  grid-template-columns: repeat(4, 50px);
+  grid-template-columns: repeat(4, 40px);
   grid-column-gap:20px;
   grid-row-gap:20px;
   align-items:center;
@@ -42,7 +42,7 @@
 
 .page-header-social a div {
   background-size:contain;
-  height:50px
+  height:40px
 }
 .page-header-social .linkedin {
   background-image:url('/assets/images/icon-linkedin.svg');

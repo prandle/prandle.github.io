@@ -25,8 +25,8 @@
   text-align:left;
 }
 .page-header-logo {
-  height:100px;
+  height:25px;
   background-image:url('{{site.logo}}');
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-size:contain;
+  background-repeat:no-repeat;  
 }

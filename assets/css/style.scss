@@ -32,8 +32,7 @@
 }
 .page-header-social {
   display:grid;
-  grid-template-columns: repeat(3, 30px);
-  height:30px;
+  grid-template-columns: repeat(3, 50px);
   grid-column-gap:10px;
   align-items:center;
 }
@@ -41,15 +40,16 @@
   width:100%;
   height:100%;
 }
+.page-header-social div {
+  background-size:contain;
+  height:50px
+}
 .page-header-social .linkedin {
   background-image:url('/assets/images/icon-linkedin.svg');
-  background-size:contain;
 }
 .page-header-social .twitter {
   background-image:url('/assets/images/icon-twitter.svg');
-  background-size:contain;
 }
 .page-header-social .github {
   background-image:url('/assets/images/icon-github.svg');
-  background-size:contain;
 }

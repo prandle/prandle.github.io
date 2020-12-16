@@ -28,9 +28,9 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <p class="project-overview">{{site.overview | 'description'}}</p>
       <div class="page-header-social">
-        <div class="linkedin"><a href="{{site.linkedin}}"></a></div>
-        <div class="twitter"><a href="{{site.twitter}}"></a></div>
-        <div class="github"><a href="{{site.github}}"></a></div>
+        <a href="{{site.linkedin}}"><div class="linkedin"></div></a>
+        <a href="{{site.twitter}}"><div class="twitter"></div></a>
+        <a href="{{site.github}}"><div class="github"></div></a>
       </div>
       <!--<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>-->
       {% if site.github.is_project_page %}

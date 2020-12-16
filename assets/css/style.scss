@@ -33,8 +33,9 @@
 }
 .page-header-social {
   display:grid;
-  grid-template-columns: repeat(3, 50px);
+  grid-template-columns: repeat(4, 50px);
   grid-column-gap:20px;
+  grid-row-gap:20px;
   align-items:center;
   margin:30px 0px;
 }

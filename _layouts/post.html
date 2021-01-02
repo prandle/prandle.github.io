@@ -3,17 +3,15 @@
 {%include head.html%}
   <body>
     <!--<a id="skip-to-content" href="#content">Skip to the content.</a>-->
-    <header class="page-header" role="banner">
-      <div class="page-header-image"></div>
-      <div class="page-header-text">
-        <div class="page-header-logo"></div>
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <header class="post-header" role="banner">
+      <div class="post-header-text">
+        <div class="post-header-logo"></div>
       </div>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-{%include footer.html%}
+      {%include footer.html%}
     </main>
   </body>
 </html>

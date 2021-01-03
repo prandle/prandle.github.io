@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-  <article>
+  <article class="post-list">
     <h2>
       <a href="{{ post.url }}">
         {{ post.title }}

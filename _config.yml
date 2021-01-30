@@ -6,7 +6,7 @@ overview: "I’ve been working with software since the days of Windows 3.1 and D
 Remember Dial-up modems, Netscape, Doom on 3.5'' floppy disks? I do. \n
 These days I do a lot of User journey planning, Automation, and Dev Ops. \n
 My current passions are Machine learning, Structured Data, and API integration."
-hero:
+hero: /assets/images/profile-lg.jpg
 hero2: /assets/images/PR2.jpg
 logo: /assets/images/prand-logo.svg
 github: https://github.com/prandle

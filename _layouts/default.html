@@ -10,10 +10,10 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <p class="project-overview">{{site.overview | 'description'}}</p>
       <div class="page-header-social">
-        <a href="{{site.linkedin}}"><div class="linkedin"></div></a>
-        <a href="{{site.twitterUrl}}"><div class="twitter"></div></a>
-        <a href="{{site.github}}"><div class="github"></div></a>
-        <a href="{{site.email}}"><div class="email"></div></a>
+        <a href="{{site.linkedin}}" target="_blank"><div class="linkedin"></div></a>
+        <a href="{{site.twitterUrl}}"  target="_blank"><div class="twitter"></div></a>
+        <a href="{{site.github}}" target="_blank"><div class="github"></div></a>
+        <a href="{{site.email}}" target="_blank"><div class="email"></div></a>
       </div>
       <!--<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>-->
       {% if site.github.is_project_page %}

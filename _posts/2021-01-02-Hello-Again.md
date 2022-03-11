@@ -1,4 +1,4 @@
-# Hello Again World Blog post
+# Ghost
 ---
 Author: prandle
 Date posted: 02/01/21
